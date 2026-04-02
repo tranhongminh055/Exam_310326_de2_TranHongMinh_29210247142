@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đặt vé"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/edtFrom"
+            android:hint="@string/hint_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="postalAddress"
+            android:inputType="textPostalAddress"
+            android:padding="12dp"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/edtTo"
+            android:hint="@string/hint_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="postalAddress"
+            android:inputType="textPostalAddress"
+            android:padding="12dp"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/edtDate"
+            android:hint="@string/hint_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="birthDate"
+            android:inputType="date"
+            android:padding="12dp"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:hint="@string/hint_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="name"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:hint="@string/hint_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="phone"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:layout_marginTop="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNext"
+            android:text="@string/btn_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBack"
+            android:text="@string/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

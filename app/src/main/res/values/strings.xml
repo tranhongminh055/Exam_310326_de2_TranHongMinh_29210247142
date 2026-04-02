@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Exam_310326_de2_TranHongMinh_29210247142</string>
+    <string name="hint_from">Diem di</string>
+    <string name="hint_to">Diem den</string>
+    <string name="hint_date">Ngay</string>
+    <string name="hint_name">Ten</string>
+    <string name="hint_phone">SDT</string>
+    <string name="btn_next">Next</string>
+    <string name="rb_economy">Economy</string>
+    <string name="rb_business">Business</string>
+    <string name="rb_first">First</string>
+    <string name="hint_people">So nguoi</string>
+    <string name="btn_service">Chon Dich vu</string>
+    <string name="chk_meal">Suat an 10$</string>
+    <string name="chk_luggage">Hanh ly 20$</string>
+    <string name="chk_insurance">Bao hiem 5$</string>
+    <string name="btn_confirm">Xac nhan</string>
+    <string name="hint_voucher">Voucher</string>
+    <string name="btn_pay">Thanh toan</string>
+    <string name="btn_back">Quay lại</string>
+    <string name="btn_back_to_activity1">Quay lại Activity 1</string>
+    <string name="toast_invalid_code">Ma sai</string>
+    <string name="service_label">DV: %1$d$</string>
+    <string name="total_label">Tong: %1$d$</string>
+</resources>
